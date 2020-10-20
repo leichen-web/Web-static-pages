@@ -1,0 +1,8 @@
+   版心width：1178
+.top w1348   h28   .top .denglu h6
+.nav h80   h4
+.product h860 .nav-left .nav-right
+.xilie h500       h4 span .xilie-product
+.tese h370      h3 .tese-product
+.content  h340     .content-left    .content-right
+.bottom

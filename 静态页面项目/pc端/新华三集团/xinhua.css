@@ -1,0 +1,463 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 主图 */
+.top {
+    width: 1345px;
+    height: 660px;
+    background-image: url("images/04.jpg");
+    background-repeat: no-repeat;
+    background-position: -130px 0;
+    position: relative;
+}
+/* 主图导航栏 */
+.top-nav {
+    width: 1345px;
+    height: 100px;
+    background: rgba(0, 0, 0, .2);
+
+}
+
+.nav-wbox {
+    width: 1280px;
+    height: 100px;
+    margin: auto;
+}
+/* logo */
+.wbox-img {
+    float: left;
+    width: 110px;
+    height: 55px;
+    margin: 26px 0;
+}
+
+.wbox-nav {
+    float: left;
+    margin: 48px 0 0 70px;
+}
+
+.wbox-nav ul li {
+    float: left;
+    list-style: none;
+    padding-right: 40px;
+    color: #e5eaef;
+}
+/* 登录注册 */
+.wbox-right {
+    float: right;
+    width: 264px;
+    height: 68px;
+}
+
+.right-top {
+    float: left;
+    width: 264px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.right-top span {
+    color: white;
+    margin-right: 8px;
+}
+
+.right-top span img {
+    padding-left: 5px;
+}
+
+.right-bottom {
+    float: left;
+    width: 244px;
+    height: 26px;
+    border: 2px #929292 solid;
+    margin-top: 8px;
+}
+
+.right-bottom .bottom-left {
+    color: white;
+    font-size: 12px;
+    float: left;
+    padding: 5px 0 2px 8px;
+}
+
+.right-bottom .bottom-right {
+    float: right;
+    margin: 5px 8px 5px 0;
+}
+
+.bottom-right img {
+    width: 16px;
+    height: 16px;
+}
+
+.bg {
+    width: 1280px;
+    height: 180px;
+}
+
+.bg img {
+    width: 40px;
+    height: 86px;
+}
+
+.bg-left {
+    float: left;
+    margin-top: 180px;
+}
+
+.bg-right {
+    float: right;
+    margin-top: 180px;
+}
+/* 主图底部开始 */
+.bottom {
+    position: absolute;
+    bottom: 0;
+    width: 1345px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.bottom-ibox {
+    width: 1280px;
+    height: 50px;
+    margin: auto;
+}
+
+.ibox-left {
+    float: left;
+    line-height: 50px;
+    font-size: 13px;
+}
+
+.ibox-left span {
+    margin-left: 20px;
+    color: white;
+}
+
+.ibox-left a {
+    margin-left: 10px;
+    color: #886e4b;
+}
+
+.ibox-right {
+    width: 80px;
+    height: 30px;
+    float: right;
+    margin-right: 20px;
+
+}
+
+.ibox-right img {
+    width: 15px;
+    height: 15px;
+    float: right;
+    margin-top: 15px;
+    padding-right: 25px;
+}
+/* 主图底部结束 */
+.content {
+    width: 1348px;
+    height: 184px;
+}
+
+
+.content-box {
+    width: 1280px;
+    height: 184px;
+    margin: auto;
+}
+
+.content-box .content-one {
+    width: 86px;
+    height: 50px;
+    margin: 30px auto 10px;
+}
+.content-one h1{
+    font-weight: 400;
+}
+
+.content-box .content-two {
+    width: 685px;
+    height: 20px;
+    margin: 0 auto 10px;
+}
+
+.content-box .content-three {
+    width: 540px;
+    height: 20px;
+    margin: 0 auto;
+}
+.content-box p{
+    color: #807e7f;
+    font-size: 14px;
+}
+.imgs{
+    width: 1348px;
+    height: 300px;
+}
+.imgs-box{
+    width: 1280px;
+    height: 300px;
+    margin-left: 60px;
+    
+}
+.imgs-box1{
+    position: relative;
+    width: 396px;
+    height: 225px;
+    background-image: url("./images/32.jpg");
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+}
+.box-bg{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(78, 37, 37, 0.4);
+    width: 396px;
+    height: 35px;
+    line-height: 35px;
+}
+.imgs p{
+    font-size: 14px;
+    color: white;
+    margin-left: 10px;
+}
+.imgs-box2{
+    position: relative;
+    width: 396px;
+    height: 225px;
+    background-image: url("./images/31.jpg");
+    background-repeat: no-repeat;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+}
+.imgs-box3{
+    position: relative;
+    width: 396px;
+    height: 225px;
+    background-image: url("./images/3.jpg");
+    background-repeat: no-repeat;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+}
+/* 中部内容结束 */
+.serve{
+    width: 1350px;
+    height: 480px;
+}
+.serve-left{
+    float: left;
+    width: 683px;
+    height: 405px;
+    background-repeat: no-repeat;
+    background-image: url("./images/768.png");
+}
+.serve-right{
+    float: right;
+    width: 582px;
+    height: 240px;
+}
+.serve-right h3{
+    display: inline-block;
+    width: 202px;
+    height: 24px;
+    margin: 25px 160px;
+    font-weight: normal;
+
+}
+.serve-right h1{
+    display: inline-block;
+    width: 310px;
+    height: 36px;
+    margin: 0px 124px 30px;
+    font-weight: normal;
+}
+.serve-right p,.serve-box p{
+    display: inline-block;
+    color: #818183;
+    font-size: 14px;
+
+}
+.serve-right .right-one{
+    margin:0 0 5px 44px;
+}
+.serve-right .right-two{
+    margin-left: 120px
+}
+.serve-right a{
+    font-size: 14px;
+}
+.serve-box{
+    width: 590px;
+    height: 170px;
+    float: right;
+}
+.serve-box .box-first{
+    float: left;
+    width: 118px;
+    height: 140px;
+    margin: 10px 30px 10px 0;
+}
+.box-first img{
+    width: 92px;
+    height: 62px;
+    margin-left: 8px;
+}
+.serve-box .box-second{
+    float: left;
+    width: 148px;
+    height: 140px;
+    margin: 10px 30px;
+}
+.box-second img{
+    width: 110px;
+    height: 56px;
+    margin-left: 18px
+}
+.serve-box .box-last{
+    float: left;
+    width: 208px;
+    height: 140px;
+    margin: 10px 0 
+}
+.box-last img{
+    width: 153px;
+    height: 60px;
+    margin-left: 35px;
+}
+/* 内容第三部分开始 */
+.bigbox{
+    width: 1348px;
+    height: 800px;
+    margin-bottom: 10px;
+}
+.bigbox-img{
+    width: 1285px;
+    height: 828px;
+    position: relative;
+}
+/* 第一张图 */
+.img-one{
+    width: 580px;
+    height: 695px;
+    background-image: url("./images/H3C_ITnew_21.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-left: 40px;
+}
+.one-dingwei{
+    position: absolute;
+    width: 580px;
+    height: 695px;
+    left: 40px;
+    background-color: rgba(0, 0, 0, .35);
+}
+.one-box{
+    width: 480px;
+    height: 215px;
+
+}
+.white{
+    display: inline-block;
+    background-color: #fff;
+    width: 100px;
+    height: 22px;
+    margin: 45px 0 0 40px;
+}
+.bigbox a{
+    line-height: 22px;
+    padding: 0 10px;
+    color: #0076d2;
+}
+.bigbox h2{
+    
+    width: 308px;
+    height: 40px;
+    color: #fffdfe;
+    font-size: 28px;
+    margin: 30px 0 0 40px;
+}
+.bigbox p{
+    display: inline-block;
+    height: 25px;
+    color: #fffdfe;
+    font-size: 14px;
+    margin: 30px 0 0 40px;
+}
+.bigbox button{
+    border: 1px solid #ccc6c6;
+    width: 100px;
+    height: 25px;
+    background-color: transparent;
+    margin: 40px 0 0 40px;
+}
+.bigbox span{
+    color: #fffdfe;
+    font-size: 14px;
+}
+/* 第二张图 */
+.two-box{
+    background-image: url("./images/H3C_ITnew_23.jpg");
+    width: 630px;
+    height: 342px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    margin-bottom: 12px;
+}
+/* 第三张图 */
+.three-box{
+    background-image: url("./images/H3C_ITnew_26.jpg");
+    width: 630px;
+    height: 342px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+}
+.footer{
+    width: 1348px;
+    height: 335px;
+    background-color: #404143;
+}
+.footer-box{
+    width: 1280px;
+    height: 335px;
+    margin:auto;
+}
+.footer-box dl{
+    float: left;
+    margin: 50px 80px 20px 0;
+}
+.footer-box dt{
+    font-size: 16px;
+    color: #fffdfc;
+    margin-bottom: 20px;
+}
+.footer-box dd{
+    font-size: 14px;
+    color: #999896;
+    margin-bottom: 5px;
+}
+.footer-right{
+    width: 300px;
+    height: 178px;
+    float: right;
+}
+.footer-right .right-l{
+    float: left;
+    margin:50px 30px 0 0;
+}
+.footer-right .right-l p{
+    font-size: 14px;
+    color: #82828c;
+    margin-left: 32px;
+}

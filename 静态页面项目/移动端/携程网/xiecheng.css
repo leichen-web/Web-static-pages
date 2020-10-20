@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    max-width: 540px;
+    min-width: 320px;
+    margin: 0 auto;
+    font: normal 14px/1.5 Tahoma, "Lucida Grande", Verdana, "Microsoft Yahei", STXihei, hei;
+    color: #000;
+    background: #ffffff;
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+}
+
+input {
+    background: none;
+    outline: none;
+    border: none;
+    -webkit-appearance: none;
+}
+
+input:focus {
+    border: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+/* 顶部 */
+.top {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 44px;
+    min-width: 320px;
+    max-width: 540px;
+    display: flex;
+    background-color: #f6f6f6;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+/* 左侧搜索框 */
+.top .search{
+    position: relative;
+    flex: 1;
+    height: 26px;
+    margin: 7px 10px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    padding: 0 25px;
+    line-height: 24px;
+    font-size: 12px;
+    color: #666666;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}
+.top .search::before{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: url("./images/sprite.png") no-repeat -60px -279px;
+    background-size: 104px auto;
+}
+/* 右侧头像框 */
+.top .user{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 12px;
+    color: #2eaae0;
+}
+.top .user::before{
+    content: "";
+    display: block;
+    width: 23px;
+    height: 23px;
+    background: url("./images/sprite.png") no-repeat -59px -194px;
+    background-size: 104px auto;
+    margin: 4px auto -2px;}
+/* 顶部结束 */
+.focus img{
+    width: 100%;
+    padding-top: 44px;
+}
+/* 焦点图结束 */
+/* 局部导航栏 */
+.local-nav{
+    display: flex;
+    height: 64px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.local-nav li{
+    flex: 1;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.local-nav li a{
+    height: 58px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    
+}
+.local-nav li [class^="local-nav_bg"]{
+    width: 32px;
+    height: 32px;
+    background: url("./images/localnav_bg.png") no-repeat;
+    background-size: 32px auto;
+    
+}
+.local-nav li a .local-nav_bg1{
+    background-position: 0 0;
+}
+.local-nav li a .local-nav_bg2{
+    background-position: 0 -32px;
+}
+.local-nav li a .local-nav_bg3{
+    background-position: 0 -64px;
+}
+.local-nav li a .local-nav_bg4{
+    background-position: 0 -96px;
+}
+.local-nav li a .local-nav_bg5{
+    background-position: 0 -128px;
+}
+/* 局部导航栏end */
+/* 导航栏 */
+.nav{
+    border-radius: 8px;
+    overflow: hidden;
+    
+}
+.nav ul[class^="nav-contain"]{
+    height: 88px;
+    margin-bottom: 3px;
+    flex: 1;
+    display: flex;
+}
+.nav .nav-contain-1{
+    background: -webkit-linear-gradient(left, #FA5A55, #FA994D);
+}
+.nav ul li{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+}
+.nav li a{
+    flex: 1;
+    text-align: center;
+    line-height: 44px;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+}
+.nav ul li:nth-child(-n+2){
+    border-right: 1px solid #fff;
+}
+li a:nth-child(1){
+    border-bottom: 1px solid #fff;
+}
+.nav-contain-1 li:nth-child(1) a {
+    content: "";
+    height: 63px;
+    background: url("./images/hotel.png") no-repeat bottom center;
+    background-size: 121px auto;
+    border: 0;
+}
+.nav-contain-2 li:nth-child(1) a {
+    content: "";
+    height: 63px;
+    background: url("./images/hotel.png") no-repeat bottom center;
+    background-size: 121px auto;
+    border: 0;
+}
+.nav-contain-3 li:nth-child(1) a {
+    content: "";
+    height: 63px;
+    background: url("./images/hotel.png") no-repeat bottom center;
+    background-size: 121px auto;
+    border: 0;
+}
+.nav .nav-contain-2{
+    background: -webkit-linear-gradient(left, #4c91ed, #53bced);
+}
+.nav .nav-contain-3{
+    background: -webkit-linear-gradient(left, #35c3a8, #6bd55b);
+}
+
+/* shopnav */
+.shop_nav{
+    display: flex;
+    border-radius: 8px;
+    background-color: #fff;
+    margin: 0 4px;
+    flex-wrap: wrap;
+    padding: 5px 0;
+}
+.shop_nav li{
+    height: 53px;
+    flex: 20%;
+}
+.shop_nav li a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shop_nav li a .icon{
+    width: 28px;
+    height: 25px;
+    background: url("./images/subnav-bg.png") no-repeat ;
+    background-size: 24px auto;
+    margin-top: 4px;
+}
+/* shopnav end */
+.shop_box{
+    border-top: 1px solid #ccc;
+}
+.hotwords{
+    position: relative;
+    height: 44px;
+    border-bottom: 1px solid #ccc;
+    
+}
+.hotwords h2{
+    position: relative;
+    height: 31px;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.hotwords h2::before{
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    width: 72px;
+    height: 19px;
+    background: url("./images/hot.png") no-repeat 0 -20px;
+    background-size: 79px auto;
+}
+.hotwords a{
+    position: absolute;
+    top: 8px;
+    right: 0;
+    height: 20px;
+    background: -webkit-linear-gradient(left,#ff516c,#ff6ac1);
+    padding: 0 15px 0 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+.hotwords a::after{
+    position: absolute;
+    content: "";
+    top: 6px;
+    right: 6px;
+    width: 7px;
+    height: 7px;
+    border: #fff 1px solid;
+    border-left: 0;
+    border-bottom: 0;
+    transform: rotate(45deg);
+}
+.shop_box .shop_tt{
+    display: flex;
+}
+.shop_box .shop_tt a{
+    flex: 1;
+    border-bottom: 1px solid #eee;
+}
+.shop_box .shop_tt a img{
+    width: 100%;
+}
+.shop_box .shop_tt a:first-child{
+    border-right: #eeeeee solid 1px;
+}
+/* 底部模块 */
+.footer{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.footer ul{
+    display: flex;
+    height: 51px;
+    border-bottom: 1px solid #ccc;
+}
+.footer ul li{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 0;
+}
+.footer ul li span{
+    flex: 1;
+}
+.footer ul li .icon:nth-child(1){
+    background: url("./images/sprite.png") no-repeat -57px -151px;
+    background-size: 104px auto;
+    width: 23px;
+    height: 22px;
+}

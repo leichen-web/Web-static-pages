@@ -1,0 +1,24 @@
+版心 w715
+
+.top{
+h43
+bgc #232e30}
+
+.top .mid{
+w715
+h43
+mg 0auto}
+
+.mid-logo{
+h43
+float:left}
+.mid-dl{
+float:right
+color:#232e30}   
+
+.center{
+h564  
+bgc #ffffff}
+.center-content{
+h460
+w715

@@ -1,0 +1,22 @@
+版心 w 1280
+
+.top{
+w1348
+h660}
+
+.top-nav{
+w1348
+h100}
+.nav-wbox{
+w1280
+h100}
+.wbox-img{
+w110
+h55}
+.wbox-nav{
+ul>li*6
+
+
+.bgc{
+h1348
+w660
